@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- Task 2 -->
+    <form action="" id="form1">
+      <input type="text" name="name" required placeholder="Enter Name" />
+      <input type="email" name="email" required placeholder="Enter Email" />
+      <input
+        type="password"
+        name="password"
+        required
+        placeholder="Enter Password"
+        id=""
+      />
+      <button type="submit">Click to Submit</button>
+    </form>
+    <div>
+      <p id="name1">Name from Local Storage is :</p>
+      <p id="email1">Email from Local Storage is :</p>
+    </div>
+
+    <div>
+      <button id="removeMyString">Remove MyString from Local Storage</button>
+    </div>
+    
+    <!-- Task 4 -->
+    <form action="" id="form2">
+      <input type="text" name="name" required placeholder="Enter Name" />
+      <input
+      type="email"
+      name="email"
+      required
+      placeholder="Enter Email"
+      />
+      <button type="submit">Click to Submit to Session Storage</button>
+    </form>
+    
+    <div>
+      <p id="name2">Name from Session Storage is :</p>
+      <p id="email2">Email from Session Storage is :</p>
+    </div>
+    
+    <div>
+      <button id="removeItemSessionStorage">Remove sessionString from Session Storage</button>
+    </div>
+    
+    <div>
+      <button id="clearAllStorages">Clear Both Local And Session Storages</button>
+    </div>
+
+
+    <script src="1UnderstandingLocalStorage.js"></script>
+    <script src="2UsingLocalStorage.js"></script>
+    <script src="3UnderstandingSessionStorage.js"></script>
+    <script src="4UsingSessionStorage.js"></script>
+    <script src="5ComparingLocalStorageandSessionStorage.js"></script>
+  </body>
+</html>
