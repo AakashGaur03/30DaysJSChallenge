@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form input, #login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#dashboard {
+    width: 100%;
+    max-width: 600px;
+}
+
+#post-form {
+    margin-bottom: 20px;
+}
+
+#post-form textarea, #post-form input[type="file"], #post-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#post-feed .post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#post-feed .post h3 {
+    margin: 0;
+}
+
+#post-feed .post p {
+    margin: 10px 0;
+}
+
+#post-feed .post img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.post-actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
